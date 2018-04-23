@@ -1,0 +1,31 @@
+*{
+	color: black;
+	font-family:verdana;
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color:cyan;
+}
+header {
+margin-top: 30px;
+margin-bottom: 200px;
+}
+th h2{
+	color:red;
+	font-weight:bold;
+}
+#VS{
+	font-weight:bold;
+	font-size:40px;
+}
+.clear{
+	clear:both;
+}
+footer{
+	margin-top:25%;
+	display:left;
+}
+footer img{
+width:30%;
+}
