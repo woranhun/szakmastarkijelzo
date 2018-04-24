@@ -18,7 +18,11 @@
 				if(isset($_POST['leftADD'])||isset($_POST['rightADD'])){
 				if(isset($_POST['leftADD']))$_SESSION['bal'] ++;
 				if(isset($_POST['rightADD']))$_SESSION['jobb'] ++;
-			}
+				}
+				if(isset($_POST['reset'])){
+						if(isset($_SESSION['bal'])) $_SESSION['bal']=0;
+						if(isset($_SESSION['jobb']))$_SESSION['jobb']=0;
+				}
 		 ?>
 		<table style="width:100%">
 			<tr>
@@ -37,6 +41,13 @@
 				<th></th>
 				<th><input type="Submit" name="rightADD" value="Nyert"></th>
 			</form>
+			</tr>
+			<tr>
+				<th></th>
+				<form method="POST" >
+					<th><input type="Submit" name="reset" value="reset"></th>
+				</form>
+				<th></th>
 			</tr>
 		</table>
 		<div class="clear"></div>

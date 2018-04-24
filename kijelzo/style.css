@@ -9,7 +9,10 @@ body{
 }
 header {
 margin-top: 30px;
-margin-bottom: 200px;
+margin-bottom: 100px;
+}
+header h1{
+	margin-left:50px;
 }
 th h2{
 	color:red;
@@ -23,7 +26,7 @@ th h2{
 	clear:both;
 }
 footer{
-	margin-top:25%;
+	margin-top:10%;
 	display:left;
 }
 footer img{
